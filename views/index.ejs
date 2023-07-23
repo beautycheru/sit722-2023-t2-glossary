@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Term</th>
+          <th>Description</th>
+          <th>References</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% for (let termAndDescription of termsAndDescriptions) { %>
+        <tr>
+          <td><%= termAndDescription.id %></td>
+          <td><%= termAndDescription.term %></td>
+          <td><%= termAndDescription.description %></td>
+          <td><%= termAndDescription.references %></td>
+        </tr>
+        <% } %>
+      </tbody>
+    </table>
+  </body>
+</html>
