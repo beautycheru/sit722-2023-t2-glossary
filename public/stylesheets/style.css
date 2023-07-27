@@ -3,15 +3,20 @@ body {
   font: 12px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-table,
-th,
-td {
-  border: 1px solid #ddd;
-  width: 100%;
-  border-collapse: collapse;
-  padding: 15px;
+a {
+  color: #00b7ff;
 }
 
+table,
+td,
+th {
+  padding: 5px;
+  border: 1px solid;
+}
+
+th:nth-child(3) {
+  width: 70%;
+}
 tr {
   background-color: #f2f2f2;
 }
@@ -21,6 +26,7 @@ th {
   height: 50px;
 }
 
-a {
-  color: #00b7ff;
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
