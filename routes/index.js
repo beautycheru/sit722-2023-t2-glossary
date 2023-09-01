@@ -162,6 +162,86 @@ const termsAndDescriptions = [
     references:
       "Coursera (2023) DevOps terms: A to Z glossary, Coursera. Available at: https://www.coursera.org/collections/devops-terms?utm_source=gg&utm_medium=sem&utm_campaign=B2C_APAC__Google_FTCOF_googlecerts_arte_PMax_Addtocart&utm_content=Degree&campaignid=20342757356&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&adpostion=&creativeid=&hide_mobile_promo&gclid=Cj0KCQjwib2mBhDWARIsAPZUn_lDcCFeQ10OwhMMXgJJTZIEhjbSwfEzPFDzyn1i2DH_Vlu3x3FCwMUaApPUEALw_wcB (Accessed: 01 August 2023). ",
   },
+  {
+    id: 21,
+    term: "Authentication",
+    description:
+      "This involves determining the legitimacy of users, groups, and services in Azure DevOps Server ( Hallberg et al., 2022).",
+    references:
+      "Hallberg, A. et al. (2022) Key concepts, glossary of terms - azure devops, Key concepts, glossary of terms - Azure DevOps | Microsoft Learn. Available at: https://learn.microsoft.com/en-us/azure/devops/server/architecture/key-concepts?view=azure-devops (Accessed: 20 August 2023)",
+  },
+  {
+    id: 22,
+    term: "Topology",
+    description:
+      "covers where and how servers running Azure DevOps components are installed, network traffic between Azure DevOps Server and Azure DevOps clients, and the services that must execute on Azure DevOps Server ( Hallberg et al., 2022). ",
+    references:
+      "Hallberg, A. et al. (2022) Key concepts, glossary of terms - azure devops, Key concepts, glossary of terms - Azure DevOps | Microsoft Learn. Available at: https://learn.microsoft.com/en-us/azure/devops/server/architecture/key-concepts?view=azure-devops (Accessed: 20 August 2023)",
+  },
+  {
+    id: 23,
+    term: "Authorization",
+    description:
+      "includes determining if legitimate Azure DevOps Server users, groups, and services have the necessary rights to conduct particular activities ( Hallberg et al., 2022). ",
+    references:
+      "Hallberg, A. et al. (2022) Key concepts, glossary of terms - azure devops, Key concepts, glossary of terms - Azure DevOps | Microsoft Learn. Available at: https://learn.microsoft.com/en-us/azure/devops/server/architecture/key-concepts?view=azure-devops (Accessed: 20 August 2023)",
+  },
+  {
+    id: 24,
+    term: "Application tier, data tier, and client tie",
+    description:
+      "The logical levels that make up Azure DevOps Server. These tiers may be installed on the same physical machine or on numerous PCs ( Hallberg et al., 2022). ",
+    references:
+      "Hallberg, A. et al. (2022) Key concepts, glossary of terms - azure devops, Key concepts, glossary of terms - Azure DevOps | Microsoft Learn. Available at: https://learn.microsoft.com/en-us/azure/devops/server/architecture/key-concepts?view=azure-devops (Accessed: 20 August 2023) ",
+  },
+  {
+    id: 25,
+    term: "Docker",
+    description:
+      "Docker is an open source software platform that allows you to design, deploy, and manage virtualized application containers on a single operating system (OS), as well as an ecosystem of related tools (Accelerated Container Application Development 2023).",
+    references:
+      "Accelerated Container Application Development (2023) Docker. Available at: https://www.docker.com/ (Accessed: 30 August 2023). ",
+  },
+  {
+    id: 26,
+    term: "Docker Hub",
+    description:
+      "Docker Hub is a cloud-based repository where Docker users and partners may develop, test, store, and share container images (Docker 2023).",
+    references:
+      "(2023) Docker. Available at: https://hub.docker.com/ (Accessed: 31 August 2023). ",
+  },
+  {
+    id: 27,
+    term: "DevOps engineer",
+    description:
+      "A DevOps engineer is an IT professional who collaborates with software developers, system administrators, and other production IT personnel to generate and manage code releases and deployments (DevOps 2023).",
+    references:
+      "DevOps (2023) DevOps news, help and research - WhatIs.com. Available at: https://www.techtarget.com/whatis/glossary/DevOps (Accessed: 18 August 2023). ",
+  },
+  {
+    id: 28,
+    term: "GNU/Linux ",
+    description:
+      "GNU/Linux is a Unix-like operating system made up of different OS components and services that create the Linux OS (DevOps 2023).",
+    references:
+      "DevOps (2023) DevOps news, help and research - WhatIs.com. Available at: https://www.techtarget.com/whatis/glossary/DevOps (Accessed: 18 August 2023).  ",
+  },
+  {
+    id: 29,
+    term: "Freeware",
+    description:
+      "Freeware is a sort of proprietary software that is distributed to the public for free (DevOps 2023).  ",
+    references:
+      "DevOps (2023) DevOps news, help and research - WhatIs.com. Available at: https://www.techtarget.com/whatis/glossary/DevOps (Accessed: 18 August 2023).  ",
+  },
+  {
+    id: 30,
+    term: "Gitlab",
+    description:
+      "GitLab is an open source code repository and collaborative development platform (Gitlab, 2023).",
+    references:
+      "The DEVSECOPS platform (2023) GitLab. Available at: https://about.gitlab.com/ (Accessed: 30 August 2023). ",
+  },
 ];
 
 /* GET home page. */
